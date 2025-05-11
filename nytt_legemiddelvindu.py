@@ -63,7 +63,9 @@ class Nytt_legemiddelvindu(ctk.CTkToplevel):
             spl.logg_dict["beholdning"]=self.beholdning
             spl.logg_dict["signatur"]=signaturvindu.sign
             spl.logg_dict["brukerinputtext"]=self.navn
-            spl.registrer_logg(spl.logg_dict)
+
+            
+            #spl.registrer_logg(spl.logg_dict)
             
 
             
